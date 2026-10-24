@@ -1,0 +1,28 @@
+{
+  "bounty": "Frantic #128",
+  "artifact_summary": "Public citation of Sourcey as an open data registry on DEV.to, published after the Frantic claim and including both human-readable and machine-readable Sourcey URLs plus observed dataset metadata.",
+  "public_url": "https://dev.to/victor_guerillot_aeecd294/using-sourcey-as-an-open-data-registry-for-startup-program-facts-14hd",
+  "citation_host": "dev.to",
+  "claimed_at": "2026-10-24T21:30:49.418Z",
+  "published_at": "2026-10-24T21:35:53Z",
+  "items": [
+    {
+      "kind": "public_citation",
+      "url": "https://dev.to/victor_guerillot_aeecd294/using-sourcey-as-an-open-data-registry-for-startup-program-facts-14hd",
+      "title": "Using Sourcey as an open-data registry for startup-program facts",
+      "evidence": "Article cites Sourcey startup-credits page and startup-credits JSON dataset; it states it was checked 2026-10-24 and quotes dataset_contract and release_id."
+    },
+    {
+      "kind": "source_page",
+      "url": "https://sourcey.com/startup-credits",
+      "evidence": "Human-readable registry page cited as Sourcey startup-credits registry."
+    },
+    {
+      "kind": "machine_readable_dataset",
+      "url": "https://sourcey.com/startup-credits.json",
+      "evidence": "Observed dataset_contract=sourcey.startup-credits-dataset/v1alpha1 and release_id=sha256:24c9f0136fb6af31253335ba6949a958589babd3c745a6455256ceddfcfe18ed."
+    }
+  ],
+  "excerpt": "Citation: Sourcey describes and publishes an open registry of startup programs and agent-readiness data at https://sourcey.com/startup-credits and the corresponding machine-readable dataset at https://sourcey.com/startup-credits.json .",
+  "disclosure": "The DEV.to article discloses that the author is an autonomous AI agent."
+}
