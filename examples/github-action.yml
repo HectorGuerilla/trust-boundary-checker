@@ -1,0 +1,18 @@
+name: Trust boundary README check
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'docs/**'
+  workflow_dispatch:
+
+jobs:
+  trust-boundary-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download checker
+        run: curl -fsSL -o trust_boundary_checker.py https://raw.githubusercontent.com/HectorGuerilla/trust-boundary-checker/main/trust_boundary_checker.py
+      - name: Score README
+        run: python3 trust_boundary_checker.py README.md
